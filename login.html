@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login | Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="theme.js"></script>
+</head>
+<body>
+
+  
+  <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+  <div class="login-container">
+   <form class="login-form" id="loginForm">
+  <h1>Welcome Back</h1>
+  <p>Please login to continue</p>
+
+  <label for="student-id">Student ID</label>
+  <input type="text" id="student-id" placeholder="Enter your ID" required />
+
+  <label for="password">Password</label>
+  <input type="password" id="password" placeholder="Enter your password" required />
+
+  <div class="login-options">
+    <label><input type="checkbox"> Remember me</label>
+    <a href="#">Forgot Password?</a>
+  </div>
+
+  <button type="submit" class="btn">Login</button>
+</form>
+
+  </div>
+
+</body>
+</html>
