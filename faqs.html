@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FAQs | Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="theme.js"></script>
+</head>
+<body>
+
+  <!-- 🌗 Theme Toggle -->
+  <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+  <!-- 🔝 Navbar -->
+  <nav class="navbar">
+    <div class="logo">Student Portal</div>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="profile.html">Profile</a>
+      <a href="courses.html">Courses</a>
+      <a href="assignments.html">Assignments</a>
+      <a href="grades.html">Grades</a>
+      <a href="attendance.html">Attendance</a>
+      <a href="event.html">Events</a>
+      <a href="feedback.html">Feedback</a>
+      <a href="contact.html">Contact</a>
+      <a href="faqs.html" class="active">FAQs</a>
+    </div>
+  </nav>
+
+  <!-- ❓ FAQ Section -->
+  <section class="faq-section">
+    <div class="faq-container">
+      <h1>Frequently Asked Questions</h1>
+      <p class="faq-subtext">Find answers to the most common questions about the student portal.</p>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFaq(this)">🔑 How do I reset my password?</h3>
+        <p class="faq-answer">Click on “Forgot Password?” on the login page and follow the steps to reset your password using your registered email ID.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFaq(this)">📝 How do I submit my assignments?</h3>
+        <p class="faq-answer">Go to the Assignments page, select your course, upload your task file, and click Submit before the due date.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFaq(this)">📊 Where can I check my grades?</h3>
+        <p class="faq-answer">Navigate to the Grades page to see your latest exam results and marksheet.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFaq(this)">📅 How do I know about upcoming events?</h3>
+        <p class="faq-answer">Check the Events page where all upcoming workshops, seminars, and activities are listed.</p>
+      </div>
+
+      <div class="faq-item">
+        <h3 onclick="toggleFaq(this)">📞 How can I contact support?</h3>
+        <p class="faq-answer">Use the Contact page to send a message to our support team or call during office hours.</p>
+      </div>
+    </div>
+  </section>
+
+  
+
+</body>
+</html>

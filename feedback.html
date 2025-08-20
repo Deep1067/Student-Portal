@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback | Student Portal</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="theme.js"></script>
+</head>
+<body>
+
+  <!-- 🌗 Theme Toggle -->
+  <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+  <!-- ✅ NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">🎓 Student Portal</div>
+    <ul class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="attendance.html">Attendance</a>
+      <a href="profile.html">Profile</a>
+      <a href="courses.html">Courses</a>
+      <a href="assignments.html">Assignments</a>
+      <a href="grades.html">Grades</a>
+      <a href="event.html">Events</a>
+      <a href="feedback.html" class="active">Feedback</a>
+      <a href="contact.html">Contact</a>
+      <a href="faqs.html">FAQs</a>
+    </ul>
+  </nav>
+
+  <!-- ✍️ FEEDBACK FORM -->
+  <section class="feedback-section">
+    <div class="feedback-container">
+      <h1>💬 Feedback</h1>
+      <p>We value your feedback. Please share your suggestions or issues below.</p>
+
+      <form class="feedback-form">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required />
+
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Subject of feedback" required />
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Write your feedback..." required></textarea>
+
+        <label>Rate your experience</label>
+        <div class="radio-group">
+          <label><input type="radio" name="rating" value="Excellent" required> Excellent</label>
+          <label><input type="radio" name="rating" value="Good"> Good</label>
+          <label><input type="radio" name="rating" value="Average"> Average</label>
+          <label><input type="radio" name="rating" value="Poor"> Poor</label>
+        </div>
+
+        <button type="submit" class="btn">Submit Feedback</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ✅ FOOTER -->
+  <footer class="footer">
+    <p>© 2025 Student Portal | Feedback System</p>
+  </footer>
+
+</body>
+</html>

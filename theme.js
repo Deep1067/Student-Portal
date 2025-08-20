@@ -24,3 +24,10 @@ document.getElementById("loginForm").addEventListener("submit", function (e) {
   }
 });
 
+/**FAQs page **/
+
+    function toggleFaq(element) {
+      const answer = element.nextElementSibling;
+      answer.classList.toggle("show");
+    }
+  
